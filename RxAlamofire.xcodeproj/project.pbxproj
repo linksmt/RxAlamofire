@@ -517,6 +517,7 @@
 				TargetAttributes = {
 					181B4FF61C4D74A8000BA6D6 = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0810;
 					};
 					637D95701C4E370C00F1FA67 = {
 						CreatedOnToolsVersion = 7.2;
@@ -868,6 +869,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = RxSwiftCommunity.RxAlamofire;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -893,6 +895,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = RxSwiftCommunity.RxAlamofire;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
