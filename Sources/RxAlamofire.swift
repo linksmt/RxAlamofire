@@ -724,7 +724,7 @@ extension Reactive where Base: DataRequest {
                 switch packedResponse.result {
                 case .success(let result):
                     if let httpResponse = packedResponse.response {
-                        observer.on(.next(httpResponse, result))
+                        observer.on(.next((httpResponse, result)))
                     }
                     else {
                         observer.on(.error(RxAlamofireUnknownError))
