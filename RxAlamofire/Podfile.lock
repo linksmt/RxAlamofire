@@ -1,5 +1,5 @@
 PODS:
-  - Alamofire (4.0.1)
+  - Alamofire (4.9.1)
   - OHHTTPStubs (5.2.2):
     - OHHTTPStubs/Default (= 5.2.2)
   - OHHTTPStubs/Core (5.2.2)
@@ -15,49 +15,40 @@ PODS:
   - OHHTTPStubs/OHPathHelpers (5.2.2)
   - OHHTTPStubs/Swift (5.2.2):
     - OHHTTPStubs/Core
-  - RxBlocking (3.0.0):
-    - RxSwift (~> 3.0)
-  - RxCocoa (3.0.0):
-    - RxSwift (~> 3.0)
-  - RxSwift (3.0.0)
+  - RxBlocking (5.1.1):
+    - RxSwift (~> 5)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.0)
+  - Alamofire (= 4.9.1)
   - OHHTTPStubs (~> 5.0)
   - OHHTTPStubs/Swift (~> 5.0)
-  - RxBlocking (from `https://github.com/ReactiveX/RxSwift.git`, branch `master`)
-  - RxCocoa (from `https://github.com/ReactiveX/RxSwift.git`, branch `master`)
-  - RxSwift (from `https://github.com/ReactiveX/RxSwift.git`, branch `master`)
+  - RxBlocking (= 5.1.1)
+  - RxCocoa (= 5.1.1)
+  - RxSwift (= 5.1.1)
 
-EXTERNAL SOURCES:
-  RxBlocking:
-    :branch: master
-    :git: https://github.com/ReactiveX/RxSwift.git
-  RxCocoa:
-    :branch: master
-    :git: https://github.com/ReactiveX/RxSwift.git
-  RxSwift:
-    :branch: master
-    :git: https://github.com/ReactiveX/RxSwift.git
-
-CHECKOUT OPTIONS:
-  RxBlocking:
-    :commit: 3c55a309a24fbe3dbc480431798eec072b633b85
-    :git: https://github.com/ReactiveX/RxSwift.git
-  RxCocoa:
-    :commit: 3c55a309a24fbe3dbc480431798eec072b633b85
-    :git: https://github.com/ReactiveX/RxSwift.git
-  RxSwift:
-    :commit: 3c55a309a24fbe3dbc480431798eec072b633b85
-    :git: https://github.com/ReactiveX/RxSwift.git
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - OHHTTPStubs
+    - RxBlocking
+    - RxCocoa
+    - RxRelay
+    - RxSwift
 
 SPEC CHECKSUMS:
-  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   OHHTTPStubs: 34d9d0994e64fcf8552dbfade5ce82ada913ee31
-  RxBlocking: 46acc259c6249f926aff064cbf14c0d98063ee6f
-  RxCocoa: eb3f8b6ded51036148f05ec223e22c893f4421b1
-  RxSwift: 931443655decc4aec2ff4e4197bf1720c2d49c57
+  RxBlocking: 5f700a78cad61ce253ebd37c9a39b5ccc76477b4
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
 
-PODFILE CHECKSUM: 8e614a0a2d749288f73cfc02fadf76f6cdafa791
+PODFILE CHECKSUM: 91049a4f41e1265c4e800a9bf09bbb84398b344d
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.9.1
